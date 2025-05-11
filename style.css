@@ -1,46 +1,22 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-}
-header {
-  background-color: #004466;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-header h1 {
-  margin: 10px 0;
-}
-.button, .insta {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 15px;
-  background-color: #00cc66;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-.insta {
-  background-color: #d62976;
-}
-.courses {
-  padding: 20px;
-}
-.courses ul {
-  list-style: none;
-  padding: 0;
-}
-.courses li {
-  margin: 10px 0;
-  background: #ffffff;
-  padding: 10px;
-  border-radius: 5px;
-}
+
 footer {
+  background-color: #222;
+  color: #fff;
   text-align: center;
-  padding: 10px;
-  background-color: #004466;
-  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer .social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+footer .social-links a:hover {
+  background-color: #0056b3;
 }
